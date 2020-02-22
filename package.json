@@ -7,7 +7,7 @@
     "name": "Dan Charousek",
     "email": "dan@charousek.dev"
   },
-  "repository": "https://github.com/DanCharousek/blog-charousek-dev/blog",
+  "repository": "https://github.com/DanCharousek/blog",
   "scripts": {
     "dev": "vuepress dev blog",
     "build": "vuepress build blog"

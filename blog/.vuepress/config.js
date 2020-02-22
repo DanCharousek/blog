@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'VuePress Blog Example',
-  description: 'This is a blog example built by VuePress',
+  title: 'Web Journal',
+  description: 'This is my personal blog where I try to formulate my thoughts on variety of topics',
   theme: '@vuepress/theme-blog', // OR shortcut: @vuepress/blog
   themeConfig: {
     /**
@@ -14,10 +14,6 @@ module.exports = {
      */
     nav: [
       {
-        text: 'Blog',
-        link: '/',
-      },
-      {
         text: 'Tags',
         link: '/tag/',
       },
@@ -29,21 +25,25 @@ module.exports = {
       contact: [
         {
           type: 'github',
-          link: 'https://github.com/ulivz',
+          link: 'https://github.com/DanCharousek',
         },
         {
           type: 'twitter',
-          link: 'https://twitter.com/_ulivz',
+          link: 'https://twitter.com/DanCharousek',
         },
+        {
+          type: 'linkedin',
+          link: 'https://www.linkedin.com/in/dan-charousek/',
+        },
+        {
+          type: 'gitlab',
+          link: 'https://gitlab.com/DanCharousek'
+        }
       ],
       copyright: [
         {
-          text: 'Privacy Policy',
-          link: 'https://policies.google.com/privacy?hl=en-US',
-        },
-        {
-          text: 'MIT Licensed | Copyright © 2018-present Vue.js',
-          link: '',
+          text: 'Copyright © 2020-present Dan Charousek',
+          link: 'https://dan.charousek.dev/',
         },
       ],
     },

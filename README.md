@@ -1,6 +1,6 @@
-# blog
+# Dan Charousek's blog
 
-> Dan Charousek&#39;s blog about anything
+Hi there, this is the source code of my blog located at https://blog.charousek.dev
 
 ## Development
 
